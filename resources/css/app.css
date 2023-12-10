@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.collapse {
+    visibility: visible;
+}
+img,
+video {
+  max-width: none;
+  height: revert-layer;
+}
